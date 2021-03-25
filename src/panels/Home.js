@@ -12,7 +12,7 @@ import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>My first develop</PanelHeader>
+		<PanelHeader>Грандов, ты плохой!</PanelHeader>
 		{fetchedUser &&
 		<Group header={<Header mode="secondary">Информация о самой красивой девочке на свете</Header>}>
 			<Cell
