@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/firstMini/static/css/main.94d9d93e.chunk.css",
-    "main.js": "/firstMini/static/js/main.b97ce97c.chunk.js",
-    "main.js.map": "/firstMini/static/js/main.b97ce97c.chunk.js.map",
+    "main.js": "/firstMini/static/js/main.11799379.chunk.js",
+    "main.js.map": "/firstMini/static/js/main.11799379.chunk.js.map",
     "runtime-main.js": "/firstMini/static/js/runtime-main.a9c35997.js",
     "runtime-main.js.map": "/firstMini/static/js/runtime-main.a9c35997.js.map",
     "static/css/2.92d02543.chunk.css": "/firstMini/static/css/2.92d02543.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.92d02543.chunk.css",
     "static/js/2.114b4bd7.chunk.js",
     "static/css/main.94d9d93e.chunk.css",
-    "static/js/main.b97ce97c.chunk.js"
+    "static/js/main.11799379.chunk.js"
   ]
 }
