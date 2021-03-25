@@ -10,25 +10,35 @@ import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
+import together from '../img/together.png';
+import sofiya from '../img/sofiya.png';
+import leonid from '../img/leonid.png';
+
+import './Photo.css';
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Хай, грандов, как дела?</PanelHeader>
+		<PanelHeader>Наше знакомство 🥰</PanelHeader>
 		{fetchedUser &&
-		<Group header={<Header mode="secondary">Информация о самой красивой девочке на свете</Header>}>
+		<Group header={<Header mode="secondary">User Data Fetched with VK Bridge</Header>}>
 			<Cell
 				before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
 				description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
 			>
 				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
 			</Cell>
-		</Group>}
-
-		<Group header={<Header mode="secondary">Love Heart</Header>}>
-			<Div>
-				<Button stretched size="l" mode="secondary" onClick={go} data-to="persik">
-					wiev heart
-				</Button>
-			</Div>
+		</Group>}		
+		<Group header={<Header mode="primary">Photos</Header>}>
+			<Cell>
+				<span>
+					<img className="Photo" src={sofiya} />   <img className="Photo" src={leonid}/> 
+				<p>     Это Сонечка---------------------------------------------а тут я))</p>
+				 </span>				
+				
+			</Cell>
+			  <Cell>			  
+				  Совместное фото
+				  <img className="Photo" src={together}/>
+			  </Cell>
 		</Group>
 	</Panel>
 );
