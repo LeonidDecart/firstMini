@@ -27,18 +27,14 @@ const Home = ({ id, go, fetchedUser }) => (
 				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
 			</Cell>
 		</Group>}		
-		<Group header={<Header mode="primary">Photos</Header>}>
+		<Group header={<Header mode="primary"><center>    Наши фотографии</center></Header>}>
 			<Cell>
-				<span>
-					<img className="Photo" src={sofiya} />   <img className="Photo" src={leonid}/> 
-				<p>     Это Сонечка---------------------------------------------а тут я))</p>
-				 </span>				
-				
+				<center>                  
+				<img className="Photo" src={sofiya} />
+				<img className="Photo" src={together}/>   
+				<img className="Photo" src={leonid}/> 
+				</center>
 			</Cell>
-			  <Cell>			  
-				  Совместное фото
-				  <img className="Photo" src={together}/>
-			  </Cell>
 		</Group>
 	</Panel>
 );
