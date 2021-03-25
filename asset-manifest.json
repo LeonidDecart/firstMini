@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/firstMini/static/css/main.94d9d93e.chunk.css",
-    "main.js": "/firstMini/static/js/main.686b8938.chunk.js",
-    "main.js.map": "/firstMini/static/js/main.686b8938.chunk.js.map",
+    "main.css": "/firstMini/static/css/main.e49ed375.chunk.css",
+    "main.js": "/firstMini/static/js/main.0e458233.chunk.js",
+    "main.js.map": "/firstMini/static/js/main.0e458233.chunk.js.map",
     "runtime-main.js": "/firstMini/static/js/runtime-main.a9c35997.js",
     "runtime-main.js.map": "/firstMini/static/js/runtime-main.a9c35997.js.map",
     "static/css/2.92d02543.chunk.css": "/firstMini/static/css/2.92d02543.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.114b4bd7.chunk.js.map": "/firstMini/static/js/2.114b4bd7.chunk.js.map",
     "index.html": "/firstMini/index.html",
     "static/css/2.92d02543.chunk.css.map": "/firstMini/static/css/2.92d02543.chunk.css.map",
-    "static/css/main.94d9d93e.chunk.css.map": "/firstMini/static/css/main.94d9d93e.chunk.css.map",
+    "static/css/main.e49ed375.chunk.css.map": "/firstMini/static/css/main.e49ed375.chunk.css.map",
     "static/js/2.114b4bd7.chunk.js.LICENSE.txt": "/firstMini/static/js/2.114b4bd7.chunk.js.LICENSE.txt",
     "static/media/persik.add80acc.png": "/firstMini/static/media/persik.add80acc.png"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.a9c35997.js",
     "static/css/2.92d02543.chunk.css",
     "static/js/2.114b4bd7.chunk.js",
-    "static/css/main.94d9d93e.chunk.css",
-    "static/js/main.686b8938.chunk.js"
+    "static/css/main.e49ed375.chunk.css",
+    "static/js/main.0e458233.chunk.js"
   ]
 }
