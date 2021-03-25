@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/panels/Photo.css"],"names":[],"mappings":"AAAA,OACI,SAAU,CACV,eAAgB,CAChB,gBACF","file":"main.c28c3b01.chunk.css","sourcesContent":[".Photo {\r\n    width: 30%;\r\n    max-width: 480px;\r\n    margin: 20px auto;\r\n  }\r\n  "]}
